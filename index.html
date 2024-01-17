@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+ <!-- navbar  -->
+ <nav class="navbar navbar-expand-lg  " aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 100px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+            <img src="img/logo.png" style="width: 100px;" alt="">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signup.html">Register</a>
+              </li>
+           
+            
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<div class="main">
+    <!-- start -->
+
+    <div class="row  home" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-md home-txt">
+            <h2>Life is <br>combinational of magic with noodles </h2>
+            <p>Make fresh to order</p>
+            <button class="btn0">View Menu</button>
+        </div>
+        <div class="col-md">
+            <img src="img/noodle3.png" alt="">
+        </div>
+    </div>
+
+    <!-- page 2  -->
+    <br><br>
+    <h2 style="text-align: center;  color:  #EF8828; font-size: xxx-large;" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">OUR SPECIALS</h2>
+
+    <div class="row  page2" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
+
+      <div class="col-md page2-card">
+        <img src="img/pizza.png" alt="">
+        <h2>PIZZA</h2>
+      </div>
+      <div class="col-md page2-card">
+        <img src="img/ramen (1).png" alt="">
+        <h2>NOODLE</h2>
+      </div>
+      <div class="col-md page2-card">
+        <img src="img/burger.png" alt="">
+        <h2>BURGER</h2>
+      </div>
+      <div class="col-md page2-card">
+        <img src="img/drink.png" alt="">
+        <h2>DRINKS</h2>
+      </div>
+    </div>
+
+    <!-- page  3 -->
+
+    <div class="row  page3  "  >
+      <div class="col-md page3-img" data-aos="fade-right" data-aos-duration="2000">
+        <img src="img/noodle5.png" alt="">
+      </div>
+      <div class="col-md  page3-txt" data-aos="fade-left" data-aos-duration="3000">
+        <strong>Welcom  to </strong>
+        <h2>CHOPSTICK DELIGHT</h2>
+        <p>Where every bite is a jurney through savory delights!  Our food  heaven invites youto experience a symphony of flavour  and textures, all expertly crafted to tantalize  your taste buds,  From sizzling work to aromatic broths, discover the  joy of culinary harmony at CHOPSTICK  DELIGHT</p>
+
+        <button class="btn0">View Our Menu</button>
+        
+      </div>
+    </div>
+<br><br><br><br>
+    <!-- page 4   -->
+    <div class=" page4  menu"  data-aos="zoom-in" data-aos-duration="1000">
+      <div class="menu-toggle">
+        <img src="img/pizza.png" alt=""  onclick="pizzacard()">
+        <img src="img/burger.png" alt=""  onclick="burgercard()">
+        <img src="img/ramen (1).png" alt="" onclick="noodlecard()">
+        <img src="img/drink.png" alt=""  onclick="drinkcard()">
+      </div>
+
+      <!-- pizza -->
+      <div class="menu-box" id="pizza" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="menu-img">
+          <img src="img/pasta.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+      </div>
+
+      <!-- burger -->
+      <div class="menu-box" id="burger">
+        <div class="menu-img">
+          <img src="img/burger.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+      </div>
+
+      <!-- noodles  -->
+      <div class="menu-box" id="noodle">
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu-box"  id="drink">
+        <div class="menu-img">
+          <img src="img/drink.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+
+        <div class="menu-img">
+          <img src="img/noodle.png" alt="">
+          <h2>Noodle</h2>
+          <p>100Rs <button class="btn0">Add to  cart</button></p>
+        </div>
+        
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- page 5  -->
+    <div class="row page5" data-aos="zoom-in-down" data-aos-duration="2000">
+      <div class="col-md page5-txt">
+        <h2>Pizza with Authentic Flavour </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam suscipit quos numquam quod quis tempore quas eos quam, quasi reprehenderit error adipisci neque repellendus deleniti veritatis ex unde provident dolor!</p>
+        <button class="btn0">View Menu</button>
+      </div>
+      <div class="col-md page5-img">
+        <img src="img/pizzabanner.png" alt="">
+      </div>
+    </div>
+   <!-- end  -->
+ </div>
+
+ <!-- page 6  -->
+
+ <div class=" container-fluid  page6">
+  <div class="col">
+    <strong>DELICIOUS NOODLES</strong>
+    <h2>Made  with Fresh and Organic </h2><br>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem, aspernatur deserunt quo neque incidunt nesciunt dolore itaque tempora sed temporibus id eligendi necessitatibus, officiis eos amet voluptates. Soluta, commodi.</P>
+    <br><BUTTON class="btn0">Check now</BUTTON>
+  </div>
+ </div>
+
+ <!-- page 7    -->
+
+ <div  class="row  container-fluid page7">
+  <div class="col-md page7-left" data-aos="zoom-out" data-aos-duration="500">
+    <h2>Enjoy with our Refresing  Drinks!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias explicabo ratione laboriosam laborum fugit nemo accusamus consequuntur sapiente. Maiores, dolores est! Delectus, porro! Officiis, id porro? Accusamus, est in.</p>
+    <br>
+    <div class="page7-gal">
+      <img src="img/drink1.png" alt="">
+      <img src="img/drink2.png" alt="">
+      <img src="img/drink3.png" alt="">
+      <img src="img/drink4.png" alt="">
+
+    </div>
+  </div>
+  <div class="col-md  page7-right" data-aos="zoom-in" data-aos-duration="500"> </div>
+
+  <!-- footer  -->
+  <div class="email-list">
+    <div class="inner">
+      <h2>Keep up to date with us </h2>
+      <form action="">
+        <input type="email" name="Email" id="" placeholder="Enter your email">
+        <button> SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-banner">
+    <h2>CHOPSTICK DELIGHT</h2>
+    <div class="footer-logo">
+      <img src="img/facebook.png" alt="">
+      <img src="img/instagram.png" alt="">
+      <img src="img/youtube.png" alt="">
+      <img src="img/twitter.png" alt="">
+    </div>
+    <div class="footer-menu">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+
+
+ </div>
+
+
+ <script src="script.js"></script>
+ <script>
+  AOS.init();
+</script>
+</body>
+</html>

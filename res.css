@@ -1,0 +1,224 @@
+@media screen and (max-width: 900px) {
+  .nav-item:hover {
+    transform: translateX(7px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* .home {
+    /* width: 100vh; */
+  /* } */
+  */ .home-txt h2 {
+    font-size: 13vw;
+  }
+  .home img {
+    width: 100%;
+  }
+  .home .col-md {
+    margin-top: -10px;
+    position: relative;
+    top: -10px;
+  }
+
+  /* page2   */
+  .page2-card {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 18px;
+  }
+  /* .page2-card img {
+    padding: ;
+  } */
+  .page2-card img {
+    width: 40px;
+    padding: 11px 0px;
+  }
+  .page2 .col-md {
+    flex-wrap: nowrap;
+    width: fit-content;
+  }
+  .page2-card h2 {
+    font-size: 4vw;
+  }
+
+  .page3 {
+    flex-wrap: wrap-reverse;
+    margin: 21vw 0px;
+  }
+  .page3-txt h2 {
+    font-size: 9vw;
+  }
+  .page3-txt p {
+    font-size: 17px;
+  }
+
+  .menu-toggle img {
+    width: 48px;
+    height: 50px;
+
+    margin: 16px;
+  }
+  .menu-box {
+    width: 95%;
+    position: relative;
+    left: 4%;
+  }
+
+  .menu-img {
+    width: 140px;
+  }
+  .menu-img img {
+    width: 100%;
+  }
+  .menu-box p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .menu-box button {
+    width: 100%;
+    font-size: 8px;
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 0px;
+    border: 1px solid black;
+  }
+
+  .page5-txt h2 {
+    font-size: 15vw;
+  }
+
+  .page6 {
+    background-position-x: center;
+  }
+  .page6 strong {
+    font-size: 15.2vw;
+  }
+  .page6 h2 {
+    font-size: 11vw;
+  }
+  .page6 .col {
+    width: 88%;
+  }
+
+  .page6 p {
+    color: #fff3cd;
+    margin: 15px 0px;
+    font-size: 5vw;
+  }
+
+  .page7-left h2 {
+    font-size: 12vw;
+  }
+  .page7-left {
+    padding: 19px;
+  }
+
+  .page7-right {
+    width: 100%;
+    background-image: url(img/drinksbg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 47vh;
+  }
+  .page7-gal img {
+    width: 24%;
+    background: #ffffff92;
+    height: 204px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .email-list .inner h2 {
+    font-size: 5vw;
+  }
+
+  .email-list .inner input {
+    padding: 7px 17px;
+    font-size: large;
+    width: 66vw;
+    margin-right: -3px;
+  }
+
+  .email-list .inner button {
+    width: 100%;
+    margin-top: 4vw;
+  }
+
+  .footer-banner h2 {
+    font-size: 8vw;
+  }
+
+  .footer-banner {
+    height: 47vh;
+  }
+
+  .about-banner {
+    height: 32vh;
+  }
+
+  .about-story h2 {
+    font-size: 11vw;
+  }
+
+  .about-banner h2 {
+    font-size: 16vw;
+  }
+
+  .ab-txt-banner h2 {
+    font-size: 5vw;
+  }
+
+  .ab-txt-banner {
+    padding: 1px 24px;
+  }
+
+  .ab-img-banner {
+    height: 57vw;
+  }
+
+  .ab-txt-banner p {
+    font-size: 3vw;
+    margin-top: -41px;
+  }
+
+  .contact-txt h2 {
+    font-size: 9vw;
+  }
+
+  .contact-img {
+    height: 95vw;
+    margin-bottom: 45px;
+  }
+
+  .signup-img {
+    height: 74vw;
+  }
+  .signup {
+    padding: 27px;
+  }
+
+  .signup-main {
+    padding: 18px;
+  }
+
+  .signup-form {
+    margin-top: -300px;
+  }
+
+  .card-title {
+    font-size: 4vw;
+  }
+
+  .card-price {
+
+    font-size: 16px;}
+
+    .mbtn {
+     
+      padding: 4px 5px;
+      font-size: x-small;}
+
+      .card img {
+        width: auto;
+        height: 37vw;}
+}
